@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/boxer-1984344_1280.jpg');
+        font-family: 'Pratik Bhai', cursive;
+        color: white;
+    }
+
+
+
+    .left {
+        display: inline-block;
+        /* border:2px solid red; */
+        position: fixed;
+        left: 35px;
+        top: 18px;
+
+    }
+
+    .left img {
+        width: 100px;
+        margin-left: 25px;
+        filter: invert(100%);
+    }
+
+
+    .left div {
+        line-height: 20px;
+        font-size: 26px;
+        text-align: center;
+
+    }
+
+    .sdk {
+        color: rgb(78, 236, 228);
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 5px auto;
+        /* border: violet 2px solid; */
+        
+
+    }
+
+    .right {
+        position: fixed;
+        right: 35px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+    }
+
+    .navbar {
+        display: inline-block;
+       
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+       
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 25px;
+     
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(200, 248, 246);
+        
+    }
+
+    .btn {
+        font-family: 'Pratik Bhai', cursive;
+        margin: 0px 9px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(78, 218, 211);
+        padding: 4px 14px;
+        border: 2px solid rgb(102, 100, 100);
+        border-radius: 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: palevioletred
+    }
+
+    .container {
+        /* border: 20px groove rgb(189, 71, 71); */
+        margin: 120px 60px;
+        padding: 20px 5px;
+        width: 55%;
+        border-radius: 30px;
+        font-family: 'Pratik raj', serif;
+       
+    }
+
+    .form-group input {
+       
+        font-family: 'pratik raj', serif;
+        text-align: center;
+        display: block;
+        width: 420px;
+        padding: 1px;
+        border: 3px solid rgb(48, 19, 36);
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+   
+    
+   
+
+    .container h2 {
+        text-align: center;
+        font-size: 35px;
+        font-style: italic;
+        color: rgb(13, 14, 73);
+    }
+
+    .container button {
+        display: block;
+        width: 280px;
+        margin: 20px auto;
+    }
+
+    #content {
+        /* float:right; */
+        font-family: 'Pratik Script', cursive;
+        color: hotpink;
+        font-size: 50px;
+        /* border: 2px solid green; */
+        padding: 20px 20px;
+        width: 35%;
+        position: absolute;
+        right: 75px;
+        top: 170px;
+        display: inline-block;
+        height: 350px;
+
+    }
+
+    .free {
+        position: absolute;
+        right: 120px;
+        margin: 20px 20px;
+        top: 550px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+    }
+    .form-group div{
+        color: black;
+    }    
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/fit hit 1.jpg" alt="">
+            <div class="sdk">Pratik fitness</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Cal</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2> Provide Details to Join</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your LOCALITY">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your EMAIL ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your PHONE NO.">
+            </div>
+            <button class="btn">SUBMIT</button>
+            <div id="content">
+                <h1>Take the gym on time</h1>
+            </div>
+            <div class="free">
+                <button class="btn">Get Membership</button>
+                <button class="btn">join now to get 30% off on 1yr Membership</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

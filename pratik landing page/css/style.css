@@ -1,0 +1,149 @@
+ 
+ body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/boxer-1984344_1280.jpg');
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+}
+
+
+
+.left {
+    display: inline-block;
+    /* border:2px solid red; */
+    position: fixed;
+    left: 35px;
+    top: 18px;
+
+}
+
+.left img {
+    width: 100px;
+    margin-left: 25px;
+    filter: invert(100%);
+}
+
+
+.left div {
+    line-height: 20px;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.sdk {
+    color: rgb(78, 236, 228);
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 5px auto;
+    /* border: violet 2px solid; */
+    
+
+}
+
+.right {
+    position: fixed;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    display: inline-block;
+   
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+   
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 25px;
+ 
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(200, 248, 246);
+    
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(78, 218, 211);
+    padding: 4px 14px;
+    border: 2px solid rgb(102, 100, 100);
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: palevioletred
+}
+
+.container {
+    /* border: 20px groove rgb(189, 71, 71); */
+    margin: 120px 60px;
+    padding: 20px 5px;
+    width: 55%;
+    border-radius: 30px;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+.form-group input {
+   
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    display: block;
+    width: 420px;
+    padding: 1px;
+    border: 3px solid rgb(80, 212, 201);
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+
+
+.container h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(102, 226, 220);
+}
+
+.container button {
+    display: block;
+    width: 280px;
+    margin: 20px auto;
+}
+
+#content {
+    /* float:right; */
+    font-family: 'Kaushan Script', cursive;
+    color: hotpink;
+    font-size: 50px;
+    /* border: 2px solid green; */
+    padding: 20px 20px;
+    width: 35%;
+    position: absolute;
+    right: 75px;
+    top: 170px;
+    display: inline-block;
+    height: 350px;
+}
